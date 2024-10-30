@@ -1,6 +1,5 @@
 export default defineEventHandler((event) => {
-    return {
-        "organization": "Student Cyber Games"
-    }
+     
+    return {"organization": "Student Cyber Games"}
   })
   
