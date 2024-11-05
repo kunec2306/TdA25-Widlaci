@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ['Dosis', 'sans-serif'], // Zkontroluj, zda je název fontu přesně stejný
+        custom: ['Dosis', 'sans-serif'],
       },
   },
   plugins: [],

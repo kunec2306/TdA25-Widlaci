@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   pages : true,
   css: [
-    '~/assets/css/main.css',
-    '../assets/css/font.css',
+    "@/assets/css/main.css",
+    '@/assets/css/font.css',
   ],
   postcss: {
     plugins: {
