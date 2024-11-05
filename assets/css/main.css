@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: white;
+}
+
+
+
+@layer components{
+    .create-game{
+        font-family: 'Dosis';
+        width: 120px;
+        height: 40px;
+        margin-top: 15vw;
+        margin-left: 20vw;
+        border-radius: 25px;
+        border: 2px solid #0070BB;
+        background-color: #FFFFFF;
+        color: #E31837;
+    }
+    .load-game{
+        font-family: 'Dosis';
+        width: 120px;
+        height: 40px;
+        margin-top: 1vw;
+        margin-left: 20vw;
+        border-radius: 25px;
+        border: 2px solid #0070BB;
+        background-color: #FFFFFF;
+        color: #E31837;
+
+    }
+    .modify-game{
+        font-family: 'Dosis';
+        width: 120px;
+        height: 40px;
+        margin-top: 1vw;
+        margin-left: 20vw;
+        border-radius: 25px;
+        border: 2px solid #0070BB;
+        background-color: #FFFFFF;
+        color: #E31837;
+    }
+    .delete-game{
+        font-family: 'Dosis';
+        width: 120px;
+        height: 40px;
+        margin-top: 1vw;
+        margin-left: 20vw;
+        border-radius: 25px;
+        border: 2px solid #0070BB;
+        background-color: #FFFFFF;
+        color: #E31837;
+    }
+    .piskvorky{
+        width: 8px;
+        height: 8px;
+        border-radius: 25px;
+        border: 2px black;
+        font-family: 'Dosis';
+        font-size: 50px ;
+        margin-left: 600px;
+        margin-top: -150px;
+
+    }
+}
