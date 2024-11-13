@@ -2,6 +2,17 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
+  nitro: {
+    experimental: {
+      database: true
+    },
+    database: {
+      database: {
+        connector: 'sqlite',
+        options: { name: 'playergames'}
+      }
+    }
+  },
   pages : true,
   css: [
     "@/assets/css/main.css",
