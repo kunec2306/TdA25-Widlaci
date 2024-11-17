@@ -8,13 +8,14 @@ export default defineEventHandler( async (event) =>{
     
         (
                 ID INTEGER PRIMARY KEY AUTOINCREMENT,
-                Name TEXT,
-                Email TEXT 
+                Gamename TEXT,
+                Difficulty TEXT,
+                Board TEXT
         )
     
     `;
 
-    const result = await db.sql`INSERT INTO  games (Name, Email) VALUES (${requestBody.name}, ${requestBody.email})`
+    const result = await db.sql`INSERT INTO  games (GameName, Difficulty, Board) VALUES (${requestBody.name}, ${requestBody.difficulty}, ${requestBody.board})`
     console.log(result)
 
 });

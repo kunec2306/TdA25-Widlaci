@@ -3,7 +3,7 @@
       <h1>Piškvorky</h1>
       <table>
         <tbody>
-          <tr v-for="(row, rowIndex) in board" :key="rowIndex">
+          <tr v-for="(row, rowIndex) in board" :key="rowIndex" id="radky">
             <td
               v-for="(cell, colIndex) in row"
               :key="colIndex"

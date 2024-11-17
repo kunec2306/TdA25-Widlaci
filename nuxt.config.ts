@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     database: {
       database: {
         connector: 'sqlite',
-        options: { name: 'playergames'}
+        options: { name: 'games'}
       }
     }
   },
