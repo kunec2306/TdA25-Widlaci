@@ -2,7 +2,7 @@
 export default {
   content: [
     "./pages/index.vue",
-    "./pages\api\addUser.ts",
+    "./pages/api/v1/games.ts",
     "./server/api/index.ts",
     "./assets/css/main.css",
     "./assets/css/font.css",
