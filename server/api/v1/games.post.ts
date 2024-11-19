@@ -1,6 +1,6 @@
 export default defineEventHandler( async (event) =>{
 
-    const requestBody = readBody(event);
+    const requestBody =  await readBody(event);
 
     const db = useDatabase("database");
 
@@ -19,6 +19,7 @@ export default defineEventHandler( async (event) =>{
     console.log(result)
 
     const games = await db.sql`SELECT * FROM games`;
+    
 
     return games.rows
 });

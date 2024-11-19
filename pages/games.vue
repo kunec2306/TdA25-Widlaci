@@ -21,7 +21,7 @@
   <div>
     <input v-model="nameGame" type="text" placeholder="Game name">
     <input v-model="difficultyGame" type="text" placeholder="Difficulty">
-    <input v-model="boardGame" type="text" placeholder="a">
+    <input v-model="boardGame" type="text" placeholder="boardGame">
     <br>
     <button @click="submit">Add</button>
   </div>
